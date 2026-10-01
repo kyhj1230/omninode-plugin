@@ -1,0 +1,27 @@
+{
+  "name": "omninode",
+  "version": "1.5.15",
+  "description": "Save and read Omninode Sessions and Skills from Claude Code or Codex, and ask the other agent a question through the local Omninode Bridge with a live view.",
+  "author": {
+    "name": "Omninode"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Omninode",
+    "shortDescription": "Save and read Omninode sessions and skills",
+    "longDescription": "Connect Codex to your Omninode account to save and read Sessions, save and install Skills, and ask Claude Code a question through the local Bridge. Uploads go directly to storage with a single curl; session and skill contents never pass through the model.",
+    "developerName": "Omninode",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Save this whole session to Omninode.",
+      "Upload my local Skill to Omninode.",
+      "Ask Claude Code through the Omninode Bridge."
+    ],
+    "brandColor": "#111827"
+  },
+  "mcpServers": "./.codex-mcp.json"
+}

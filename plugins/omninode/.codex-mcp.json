@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "omninode": {
+      "type": "http",
+      "url": "https://gateway.omninode.fyi/chatgpt"
+    },
+    "omninode-bridge": {
+      "type": "stdio",
+      "command": "node",
+      "cwd": "./",
+      "args": ["./bridge/mcp-server.mjs", "--caller=codex"]
+    }
+  }
+}

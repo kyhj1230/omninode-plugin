@@ -1,0 +1,15 @@
+{
+  "name": "omninode-marketplace",
+  "owner": {
+    "name": "Kim Hyunjung"
+  },
+  "plugins": [
+    {
+      "name": "omninode",
+      "source": "./plugins/omninode",
+      "description": "Save and read Omninode Sessions and Skills from Claude Code or Codex, and ask the other agent a question through the local Omninode Bridge with a live view.",
+      "version": "1.5.15",
+      "category": "productivity"
+    }
+  ]
+}
