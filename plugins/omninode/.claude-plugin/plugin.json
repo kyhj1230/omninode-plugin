@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "omninode",
-  "version": "1.5.15",
+  "version": "1.5.16",
   "description": "Save and read Omninode Sessions and Skills from Claude Code or Codex, and ask the other agent a question through the local Omninode Bridge with a live view.",
   "author": {
     "name": "Omninode"
