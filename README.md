@@ -1,6 +1,6 @@
-# Omninode plugin
+# Osus plugin
 
-Claude Code and Codex plugin for Omninode: save and read Sessions, save and install Skills, and ask the other agent a question through the local Bridge.
+Claude Code and Codex plugin for Osus: connects your agent to your Osus account so its work shows up as reports you can read, comment on, save and share.
 
 ## Install
 
@@ -23,4 +23,4 @@ codex plugin add omninode
 Claude Code: `/plugin marketplace update omninode-plugin`, then update `omninode` in `/plugin`.
 Codex: `codex plugin marketplace upgrade`.
 
-Session and Skill saving needs the Omninode Connector connected to your account. Bridge needs the Codex and Claude Code CLIs installed and signed in.
+Version 1.6.0 removes the Session, Skill and Bridge features. The plugin now only connects to Osus at `gateway.osus.fyi`.

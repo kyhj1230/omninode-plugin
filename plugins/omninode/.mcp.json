@@ -2,14 +2,7 @@
   "mcpServers": {
     "omninode": {
       "type": "http",
-      "url": "https://gateway.omninode.fyi"
-    },
-    "omninode-bridge": {
-      "command": "node",
-      "args": [
-        "${CLAUDE_PLUGIN_ROOT}/bridge/mcp-server.mjs",
-        "--caller=claude_code"
-      ]
+      "url": "https://gateway.osus.fyi"
     }
   }
 }

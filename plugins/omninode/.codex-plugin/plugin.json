@@ -1,15 +1,14 @@
 {
   "name": "omninode",
-  "version": "1.5.16",
-  "description": "Save and read Omninode Sessions and Skills from Claude Code or Codex, and ask the other agent a question through the local Omninode Bridge with a live view.",
+  "version": "1.6.0",
+  "description": "Connect Claude Code and Codex to your Osus account, so the work they do shows up as reports you can read, comment on, save and share.",
   "author": {
-    "name": "Omninode"
+    "name": "Osus"
   },
-  "skills": "./skills/",
   "interface": {
-    "displayName": "Omninode",
-    "shortDescription": "Save and read Omninode sessions and skills",
-    "longDescription": "Connect Codex to your Omninode account to save and read Sessions, save and install Skills, and ask Claude Code a question through the local Bridge. Uploads go directly to storage with a single curl; session and skill contents never pass through the model.",
+    "displayName": "Osus",
+    "shortDescription": "Send your agent work to Osus",
+    "longDescription": "Connect Codex to your Osus account so the reports it writes show up in Osus, where you can read, comment on, save and share them.",
     "developerName": "Omninode",
     "category": "Productivity",
     "capabilities": [
@@ -17,9 +16,7 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Save this whole session to Omninode.",
-      "Upload my local Skill to Omninode.",
-      "Ask Claude Code through the Omninode Bridge."
+      "Post this work to Osus."
     ],
     "brandColor": "#111827"
   },
